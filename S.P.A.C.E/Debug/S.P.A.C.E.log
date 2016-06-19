@@ -1,0 +1,104 @@
+﻿Build started 11/05/2016 13:12:47.
+     1>Project "G:\VS Projects\S.P.A.C.E\S.P.A.C.E\S.P.A.C.E.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt display.cpp objectBounds.cpp main.cpp particle.cpp particlesystem.cpp shader.cpp text2D.cpp
+         text2D.cpp
+         particlesystem.cpp
+         particle.cpp
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(79): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(80): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(81): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(84): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(85): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(89): warning C4305: '-=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(90): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(94): warning C4305: '-=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(110): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(112): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\particle.cpp(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\skybox.h(11): warning C4114: same type qualifier used more than once
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\room.h(41): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\room.h(76): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\roomdetails.h(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\console_object.h(62): warning C4305: '-=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(279): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(280): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(330): warning C4018: '<': signed/unsigned mismatch
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(542): warning C4018: '<': signed/unsigned mismatch
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(561): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(562): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(563): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(564): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(567): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(568): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(569): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(570): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(714): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(715): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(716): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(717): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(720): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(721): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(722): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(723): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1184): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1185): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1186): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1191): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1194): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1195): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1196): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1355): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1356): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1357): warning C4305: '=': truncation from 'double' to 'float'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1627): warning C4005: 'WIDTH': macro redefinition
+         g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(35): note: see previous definition of 'WIDTH'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1628): warning C4005: 'HEIGHT': macro redefinition
+         g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(36): note: see previous definition of 'HEIGHT'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1697): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(1712): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\main.cpp(151): warning C4101: 'doorBound': unreferenced local variable
+         objectBounds.cpp
+         display.cpp
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(415): warning C4244: '=': conversion from 'Sint32' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(416): warning C4244: '=': conversion from 'Sint32' to 'float', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(422): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(427): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(432): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\display.cpp(437): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         shader.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\S.P.A.C.E.res" S.P.A.C.E.rc 
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\VS Projects\S.P.A.C.E\Debug\S.P.A.C.E.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib\x86 glew32.lib glew32s.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"G:\VS Projects\S.P.A.C.E\Debug\S.P.A.C.E.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\VS Projects\S.P.A.C.E\Debug\S.P.A.C.E.lib" /MACHINE:X86 Debug\S.P.A.C.E.res
+         Debug\display.obj
+         Debug\mesh.obj
+         Debug\objectBounds.obj
+         Debug\obj_loader.obj
+         Debug\main.obj
+         Debug\particle.obj
+         Debug\particlesystem.obj
+         Debug\shader.obj
+         Debug\skybox.obj
+         Debug\stb_image.obj
+         Debug\text2D.obj
+         Debug\texture.obj
+         S.P.A.C.E.vcxproj -> G:\VS Projects\S.P.A.C.E\Debug\S.P.A.C.E.exe
+     1>Done Building Project "G:\VS Projects\S.P.A.C.E\S.P.A.C.E\S.P.A.C.E.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.84

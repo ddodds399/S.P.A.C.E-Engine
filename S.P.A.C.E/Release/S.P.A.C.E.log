@@ -1,0 +1,75 @@
+﻿Build started 11/05/2016 17:13:25.
+     1>Project "G:\VS Projects\S.P.A.C.E\S.P.A.C.E\S.P.A.C.E.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I.\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\skybox.h(11): warning C4114: same type qualifier used more than once
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\room.h(42): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\room.h(77): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\roomdetails.h(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>g:\vs projects\s.p.a.c.e\s.p.a.c.e\console_object.h(68): warning C4305: '-=': truncation from 'double' to 'float'
+     1>main.cpp(332): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(333): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(400): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(644): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(663): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(664): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(665): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(666): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(669): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(670): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(671): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(672): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(816): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(817): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(818): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(819): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(822): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(823): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(824): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(825): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>main.cpp(1302): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1303): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1304): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1309): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1312): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1313): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1314): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1473): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1474): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1475): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1506): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+     1>main.cpp(1508): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>main.cpp(1735): warning C4305: '=': truncation from 'double' to 'float'
+     1>main.cpp(1779): warning C4005: 'WIDTH': macro redefinition
+         main.cpp(36): note: see previous definition of 'WIDTH'
+     1>main.cpp(1780): warning C4005: 'HEIGHT': macro redefinition
+         main.cpp(37): note: see previous definition of 'HEIGHT'
+     1>main.cpp(1849): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1864): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\VS Projects\S.P.A.C.E\Release\S.P.A.C.E.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib\x86 glew32.lib glew32s.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"G:\VS Projects\S.P.A.C.E\Release\S.P.A.C.E.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\VS Projects\S.P.A.C.E\Release\S.P.A.C.E.lib" /MACHINE:X86 /SAFESEH Release\S.P.A.C.E.res
+         Release\AABBbounds.obj
+         Release\display.obj
+         Release\mesh.obj
+         Release\objectBounds.obj
+         Release\obj_loader.obj
+         Release\main.obj
+         Release\particle.obj
+         Release\particlesystem.obj
+         Release\shader.obj
+         Release\skybox.obj
+         Release\stb_image.obj
+         Release\text2D.obj
+         Release\texture.obj
+         Generating code
+         1 of 1985 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         S.P.A.C.E.vcxproj -> G:\VS Projects\S.P.A.C.E\Release\S.P.A.C.E.exe
+     1>Done Building Project "G:\VS Projects\S.P.A.C.E\S.P.A.C.E\S.P.A.C.E.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32

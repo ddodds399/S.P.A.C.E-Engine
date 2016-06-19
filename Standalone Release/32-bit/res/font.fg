@@ -1,0 +1,17 @@
+#version 330 core
+
+// Interpolated values from the vertex shaders
+in vec2 UV;
+
+
+
+// Values that stay constant for the whole mesh.
+uniform sampler2D myTextureSampler;
+
+void main(){
+	vec4 tc = texture(myTextureSampler, UV);
+   if (tc.a < 0.5) //If alpha value is less than half, delete it
+     discard;
+	 
+	 gl_FragColor = tc;
+}
